@@ -7,7 +7,7 @@ enum SeasonSimple{
 
 public class SimpleEnum {
 	
-	Season currentSeason = Season.SUMMER;
+	SeasonSimple currentSeason = SeasonSimple.SUMMER;
 	
 	public boolean isSeasonPresent(SeasonSimple s) {
 		boolean response = false;
